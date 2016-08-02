@@ -499,7 +499,7 @@ function integer ($i) {
                 return Math.ceil($i);
 }
 /* The all modification was thanks to who reported and suggested bugs and modifications
-*  at Issues in statistics-distributions-js": https://code.google.com/archive/p/statistics-distributions-js/issues
+*  at Issues in statistics-distributions-js: https://code.google.com/archive/p/statistics-distributions-js/issues
 */
 /*
 * #Change Log
