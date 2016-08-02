@@ -1,0 +1,59 @@
+/*Results with "statistics-distributions_Ymdf.js" on 2016-08-01.
+* The all code was tested on Firebug 2.0.17 
+* in Firefox 47.0 (32-bit Ubuntu 14.04).
+*
+* 2016 Yuji SODE <yuji.sode@gmail.com>
+*/
+
+/*
+* info: Example
+* tested code etc.
+* result
+*/
+
+
+/*===examples SYNOPSIS in "statistics-distributions-001.js"===*/
+
+//info: Chi-squared-crit (2 degrees of freedom, 95th percentile = 0.05 level
+chisqrdistr(2, .05);
+//5.9915
+
+//info: u-crit (95th percentile = 0.05 level)
+udistr(.05);
+//1.6449
+
+//info: t-crit (1 degree of freedom, 99.5th percentile = 0.005 level)
+tdistr(1,.005);
+//63.657
+
+//info: F-crit (1 degree of freedom in numerator, 3 degrees of freedom 
+//      in denominator, 99th percentile = 0.01 level)
+fdistr(1,3,.01);
+//34.116
+
+//info: upper probability of the u distribution (u = -0.85): Q(u) = 1-G(u)
+uprob(-0.85);
+//0.80234
+
+//info: upper probability of the chi-square distribution
+//      (3 degrees of freedom, chi-squared = 6.25): Q = 1-G
+chisqrprob(3,6.25);
+//0.10006
+
+//info: upper probability of the t distribution
+//      (3 degrees of freedom, t = 6.251): Q = 1-G
+tprob(3,6.251);
+//0.0041301
+
+//info: upper probability of the F distribution
+//      (3 degrees of freedom in numerator, 5 degrees of freedom in
+//      denominator, F = 6.25): Q = 1-G
+fprob(3,5,.625);
+//0.62911
+
+//additional test
+//info: upper probability of the F distribution
+//      (3 degrees of freedom in numerator, 5 degrees of freedom in
+//      denominator, F = 6.25): Q = 1-G
+fprob(3,5,6.25);
+//0.038173

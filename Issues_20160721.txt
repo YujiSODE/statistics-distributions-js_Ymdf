@@ -1,0 +1,15 @@
+derived on 2016-07-21:
+https://code.google.com/archive/p/statistics-distributions-js/issues
+
+ID:2  
+There is a parenthesis error in line 167. Correct reading is:  
+
+    $p = 1 - (Math.pow((1 - $z), ($n / 2)) * $a);
+
+ID:3  
+problem is line 461: for (var $i = 0; i < arguments.length; i++) {  
+
+corrected line adds missing $ characters: for (var $i = 0; $i < arguments.length; $i++) {
+
+ID:4  
+min function (and max, already mentioned) needs a $ in front of looping variable.
