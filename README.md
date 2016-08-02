@@ -1,14 +1,16 @@
 # statistics-distributions-js_Ymdf
 modified from statistics-distributions-js (Ben Tilly,2008); JavaScript library for calculating critical values and upper probabilities of common statistical distributions  
-https://code.google.com/archive/p/statistics-distributions-js/  
+[The original version of this JavaScript library](https://code.google.com/archive/p/statistics-distributions-js/)  
 https://github.com/YujiSODE/statistics-distributions-js_Ymdf  
 
 >Copyright (c) 2008 Ben Tilly \<btilly@gmail.com\>  
 >Formating, simplification and bug repair by Matthias Trautner Kromann \<mtk@id.cbs.dk\>.  
 >And this program was modified by Yuji SODE \<yuji.sode@gmail.com\> on 2016-08.  
+>For the original version of this JavaScript library,  
+>see statistics-distributions-001.js or https://code.google.com/archive/p/statistics-distributions-js/  
+>
 >This software is released under the The Artistic License 2.0./GPL  
->See LICENSE or http://dev.perl.org/licenses/  
->and http://dev.perl.org/licenses/artistic.html or http://dev.perl.org/licenses/gpl1.html
+>See LICENSE, or http://dev.perl.org/licenses/ and http://dev.perl.org/licenses/artistic.html or http://dev.perl.org/licenses/gpl1.html
 ______
 
 ###Cited from [statistics-distributions-js (Ben Tilly,2008)](https://code.google.com/archive/p/statistics-distributions-js/);
