@@ -1,0 +1,124 @@
+/*Results with "statistics-distributions-001.js" on 2016-07-31.
+* The all code was tested on Firebug 2.0.17 
+* in Firefox 47.0 (32-bit Ubuntu 14.04).
+*
+* 2016 Yuji SODE <yuji.sode@gmail.com>
+*/
+
+/*
+* info: Example
+* tested code etc.
+* result
+*/
+
+
+/*===examples SYNOPSIS in "statistics-distributions-001.js"===*/
+
+//info: Chi-squared-crit (2 degrees of freedom, 95th percentile = 0.05 level
+chisqrdistr(2, .05);
+//5.9915
+
+//info: u-crit (95th percentile = 0.05 level)
+udistr(.05);
+//1.6449
+
+//info: t-crit (1 degree of freedom, 99.5th percentile = 0.005 level)
+tdistr(1,.005);
+//ReferenceError: i is not defined
+
+//info: F-crit (1 degree of freedom in numerator, 3 degrees of freedom 
+//      in denominator, 99th percentile = 0.01 level)
+fdistr(1,3,.01);
+//ReferenceError: i is not defined
+
+//info: upper probability of the u distribution (u = -0.85): Q(u) = 1-G(u)
+uprob(-0.85);
+//0.80234
+
+//info: upper probability of the chi-square distribution
+//      (3 degrees of freedom, chi-squared = 6.25): Q = 1-G
+chisqrprob(3,6.25);
+//0.10006
+
+//info: upper probability of the t distribution
+//      (3 degrees of freedom, t = 6.251): Q = 1-G
+tprob(3,6.251);
+//ReferenceError: i is not defined
+
+//info: upper probability of the F distribution
+//      (3 degrees of freedom in numerator, 5 degrees of freedom in
+//      denominator, F = 6.25): Q = 1-G
+fprob(3,5,.625);
+//ReferenceError: i is not defined
+
+//additional test
+//info: upper probability of the F distribution
+//      (3 degrees of freedom in numerator, 5 degrees of freedom in
+//      denominator, F = 6.25): Q = 1-G
+fprob(3,5,6.25);
+//ReferenceError: i is not defined
+
+/*===additional examples===*/
+/* example data cited:
+* Ishii, S., 1975. Seibutu Toukeigaku Nyuumon
+* (English title: An Introduction to Biostatistics).
+* Tokyo, Japan, BAIFUKAN CO., LTD.
+* (in Japanese)
+*
+* ISBN: 9784563037345
+* NCID: BN04347526
+*/
+
+//info: Chi-squared-crit (2 degrees of freedom, p value = 0.05).
+//      According to Ishii (1975),
+//      5.991
+
+//info: u-crit (p value = 0.049471; u-distribution approximated with
+//      standard normal distribution when sample size > 20).
+//      According to Ishii (1975),
+//      1.65
+
+//info: t-crit (1 degree of freedom, p value = 0.005).
+//      According to Ishii (1975),
+//      127.32(two-tailed test)
+//      63.657(one-tailed test)
+
+//info: F-crit (1 degree of freedom in numerator, 3 degrees of freedom 
+//      in denominator, p value = 0.01)
+//      According to Ishii (1975),
+//      55.55(two-tailed test)
+//      34.12(one-tailed test)
+
+//info: upper probability of the u distribution (u = -0.85; u-distribution
+//      approximated with standard normal distribution when sample size > 20).
+//      According to Ishii (1975),
+//      1-p(z >= 0.85) = 1-0.19766 = 0.80234
+
+//info: upper probability of the chi-square distribution
+//      (3 degrees of freedom, chi-squared = 6.25).
+//      According to Ishii (1975),
+//      0.10
+
+//info: upper probability of the t distribution
+//      (3 degrees of freedom, t = 5.841).
+//      According to Ishii (1975),
+//      0.01(two-tailed test)
+//      0.005(one-tailed test)
+
+//info: upper probability of the t distribution
+//      (3 degrees of freedom, t = 7.453).
+//      According to Ishii (1975),
+//      0.005(two-tailed test)
+//      0.0025(one-tailed test)
+
+//info: upper probability of the F distribution (3 degrees of freedom
+//      in numerator, 5 degrees of freedom in denominator, F = 5.41).
+//      According to Ishii (1975),
+//      0.025(two-tailed test)
+//      0.05(one-tailed test)
+
+//info: upper probability of the F distribution (3 degrees of freedom
+//      in numerator, 5 degrees of freedom in denominator, F = 7.76).
+//      According to Ishii (1975),
+//      0.0125(two-tailed test)
+//      0.025(one-tailed test)
