@@ -67,12 +67,11 @@
  * AUTHOR
  * 
  * Ben Tilly <btilly@gmail.com>
- * and modified by Yuji SODE <yuji.sode@gmail.com> on 2016-08
  * Originl Perl version by Michael Kospach <mike.perl@gmx.at>
  * 
  * Nice formating, simplification and bug repair by Matthias Trautner Kromann
  * <mtk@id.cbs.dk>
- * 
+ * And this program was modified by Yuji SODE <yuji.sode@gmail.com> on 2016-08
  * COPYRIGHT 
  * 
  * Copyright 2008 Ben Tilly.
