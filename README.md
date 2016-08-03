@@ -9,8 +9,8 @@ https://github.com/YujiSODE/statistics-distributions-js_Ymdf
 >For the original version of this JavaScript library,  
 >see statistics-distributions-001.js or https://code.google.com/archive/p/statistics-distributions-js/  
 >
->This software is released under the The Artistic License 2.0./GPL  
->See LICENSE, or http://dev.perl.org/licenses/ and http://dev.perl.org/licenses/artistic.html or http://dev.perl.org/licenses/gpl1.html
+>This software is released under either the Perl Artistic License or the GPL v1 or later  
+>See http://dev.perl.org/licenses/ and http://dev.perl.org/licenses/artistic.html or http://dev.perl.org/licenses/gpl1.html
 ______
 
 ###Cited from [statistics-distributions-js (Ben Tilly,2008)](https://code.google.com/archive/p/statistics-distributions-js/);
