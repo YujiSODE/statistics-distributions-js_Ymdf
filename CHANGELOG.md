@@ -2,6 +2,13 @@
 Changes from statistics-distributions-001.js to statistics-distributions_Ymdf.js  
 See [statistics-distributions-js](https://code.google.com/archive/p/statistics-distributions-js/)
 
+## [Unreleased] - 2016-08-03
+##Removed
+- line 70: * and modified by Yuji SODE <yuji.sode@gmail.com> on 2016-08
+
+##Changed
+- line 74: And this program was modified by Yuji SODE <yuji.sode@gmail.com> on 2016-08
+
 ## [Unreleased] - 2016-08-02
 ##Changed
 - line 4-6: statistics-distributions_Ymdf.js modified from ... common statistical distributions

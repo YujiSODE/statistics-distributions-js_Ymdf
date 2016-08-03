@@ -67,12 +67,11 @@
  * AUTHOR
  * 
  * Ben Tilly <btilly@gmail.com>
- * and modified by Yuji SODE <yuji.sode@gmail.com> on 2016-08
  * Originl Perl version by Michael Kospach <mike.perl@gmx.at>
  * 
  * Nice formating, simplification and bug repair by Matthias Trautner Kromann
  * <mtk@id.cbs.dk>
- * 
+ * And this program was modified by Yuji SODE <yuji.sode@gmail.com> on 2016-08
  * COPYRIGHT 
  * 
  * Copyright 2008 Ben Tilly.
@@ -505,6 +504,13 @@ function integer ($i) {
 * #Change Log
 * Changes from statistics-distributions-001.js to statistics-distributions_Ymdf.js  
 * See [statistics-distributions-js](https://code.google.com/archive/p/statistics-distributions-js/)
+*
+* ## [Unreleased] - 2016-08-03
+* ##Removed
+* - line 70: * and modified by Yuji SODE <yuji.sode@gmail.com> on 2016-08
+*
+* ##Changed
+* - line 74: And this program was modified by Yuji SODE <yuji.sode@gmail.com> on 2016-08
 *
 * ## [Unreleased] - 2016-08-02
 * ##Changed
