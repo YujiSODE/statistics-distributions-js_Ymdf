@@ -505,14 +505,14 @@ function integer ($i) {
 * Changes from statistics-distributions-001.js to statistics-distributions_Ymdf.js  
 * See [statistics-distributions-js](https://code.google.com/archive/p/statistics-distributions-js/)
 *
-* ## [Unreleased] - 2016-08-03
+* ## [0.2] - 2016-08-03
 * ##Removed
 * - line 70: * and modified by Yuji SODE <yuji.sode@gmail.com> on 2016-08
 *
 * ##Changed
 * - line 74: And this program was modified by Yuji SODE <yuji.sode@gmail.com> on 2016-08
 *
-* ## [Unreleased] - 2016-08-02
+* ## [0.2] - 2016-08-02
 * ##Changed
 * - line 4-6: statistics-distributions_Ymdf.js modified from ... common statistical distributions
 * - line 70: and modified by Yuji SODE <yuji.sode@gmail.com> on 2016-08
@@ -521,7 +521,7 @@ function integer ($i) {
 *   at Issues in statistics-distributions-js: https://code.google.com/archive/p/statistics-distributions-js/issues
 * - line 504-524: Added this CHANGELOG in "statistics-distributions_Ymdf.js"
 *
-* ## [Unreleased] - 2016-08-01
+* ## [0.2] - 2016-08-01
 * ### Fixed
 * #### According to [Issues in statistics-distributions-js](https://code.google.com/archive/p/statistics-distributions-js/issues)
 * - line 167: $p = 1 - (Math.pow((1 - $z), ($n / 2)) * $a);  
