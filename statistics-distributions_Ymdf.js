@@ -163,7 +163,7 @@ function _subfprob ($n, $m, $x) {
 		for (var $i = $m - 2; $i >= 2; $i -= 2) {
 			$a = 1 + ($n + $i - 2) / $i * $z * $a;
 		}
-		$p = 1 - (Math.pow((1 - $z), ($n / 2)) * $a);
+		$p = 1 - Math.pow((1 - $z), ($n / 2)) * $a;
 	} else if ($n % 2 == 0) {
 		var $z = $n * $x / ($m + $n * $x);
 		var $a = 1;
