@@ -2,7 +2,7 @@
 Changes from statistics-distributions-001.js to statistics-distributions_Ymdf.js  
 See [statistics-distributions-js](https://code.google.com/archive/p/statistics-distributions-js/)
 
-## [unreleased] - 2017-02-15
+## [0.3] - 2017-02-15
 ##Added
 - [ResultsLog_statistics-distributions-001_js.txt] line 7-9: `* Updated on 2017-02-15.`  
   `* The updated code was tested on The Web Console`  
