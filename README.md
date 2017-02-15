@@ -21,4 +21,4 @@ These critical values are needed to perform statistical tests, like the u test, 
 This is a direct port of the Perl module Statistics::Distributions.
 
 ###Acknowledgments
-The all modification was thanks to who reported and suggested bugs and modifications at [Issues in statistics-distributions-js.](https://code.google.com/archive/p/statistics-distributions-js/issues) and Dr. Gordon O. E.
+The all modification was thanks to who reported and suggested bugs and modifications at [Issues in statistics-distributions-js.](https://code.google.com/archive/p/statistics-distributions-js/issues) and Dr. Gordon.
