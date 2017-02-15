@@ -3,6 +3,10 @@
 * in Firefox 47.0 (32-bit Ubuntu 14.04).
 *
 * 2016 Yuji SODE <yuji.sode@gmail.com>
+*
+* Updated on 2017-02-15.
+* The updated code was tested on The Web Console
+* in Firefox 51.0.1(32-bit)(32-bit Ubuntu 14.04).
 */
 
 /*
@@ -122,3 +126,31 @@ fprob(3,5,6.25);
 //      According to Ishii (1975),
 //      0.0125(two-tailed test)
 //      0.025(one-tailed test)
+/*==============================================================
+* Reports by Oakley E. Gordon in mail from Ben Tilly(Feb 14, 2017 at 10:08 AM)
+* on: February 13, 2017 at 10:07:52 AM MST and Feb 13, 2017 at 10:13 AM
+* ==============================================================
+*/
+//info: upper probability of the F distribution
+//      (6 degrees of freedom in numerator, 60 degrees of freedom in
+//      denominator, F = 2): Q = 1-G
+fprob(6,60,2);
+//1
+
+//info: upper probability of the F distribution
+//      (6 degrees of freedom in numerator, 61 degrees of freedom in
+//      denominator, F = 2): Q = 1-G
+fprob(6,61,2);
+//0.079403
+
+//info: upper probability of the F distribution
+//      (6 degrees of freedom in numerator, 59 degrees of freedom in
+//      denominator, F = 2): Q = 1-G
+fprob(6,59,2);
+//0.079988
+
+//info: upper probability of the F distribution
+//      (1 degrees of freedom in numerator, 10 degrees of freedom in
+//      denominator, F = 25): Q = 1-G
+fprob(1,10,25);
+//0.18041
