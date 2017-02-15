@@ -3,6 +3,9 @@ Changes from statistics-distributions-001.js to statistics-distributions_Ymdf.js
 See [statistics-distributions-js](https://code.google.com/archive/p/statistics-distributions-js/)
 
 ## [0.3] - 2017-02-15
+##Changed
+- [README.md] line 24: `The all modification was thanks to who reported and suggested bugs and modifications at [Issues in statistics-distributions-js.](https://code.google.com/archive/p/statistics-distributions-js/issues) and Dr. Gordon.`
+
 ##Added
 - [ResultsLog_statistics-distributions-001_js.txt] line 7-9: `* Updated on 2017-02-15.`  
   `* The updated code was tested on The Web Console`  
